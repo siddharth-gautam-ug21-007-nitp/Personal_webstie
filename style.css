@@ -1,0 +1,161 @@
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+
+}
+/* .mid-container{
+    background-color: red;
+    width:200px;
+    height:200px;
+} */
+/* .bottom-container{
+    background-color: yellow;
+    width:200px;
+    height:200px;
+} */
+.topcloud{
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+       font-size: 1em;
+       color: #40514E;
+    
+}
+h1{
+    margin-top: 50px;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 5rem;     /* font size is inherite */
+      color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+.span{
+    text-decoration: underline;
+}
+.bottomcloud{
+    position: absolute;
+    left: 240px;
+    bottom: 350px;
+   
+}
+/* .mountain{
+    position:absolute;
+    
+} */
+.chilli{
+    /* height: 150px;
+    width: 150px; */
+    width: 25%;      /* of parent */
+   float: right ;    
+     margin-left: 30px;  /* wrap around text */
+}
+.gif{
+    
+  height: 170px;
+  width: 28%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+/* .profile{
+    background-color: blueviolet;
+}
+.middle-container{
+    background-color: black;
+} */
+.human{
+    margin-top: 30px;
+    border-radius: 50%;
+   width:20%;
+   height: 20%;
+}
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+  
+
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+    .btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #EAF6F6;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
